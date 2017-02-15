@@ -4,6 +4,11 @@ public class DinosaurSupervisor {
 
     public static void main(String[] args) {
 	// write your code here
-        Dinosaur trex = new Dinosaur();
+        Dinosaur t_rex = new Dinosaur();
+        Dinosaur velociraptor = new Dinosaur();
+
+        t_rex.roar();
+        velociraptor.roar();
+
     }
 }
